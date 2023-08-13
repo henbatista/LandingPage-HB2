@@ -18,12 +18,7 @@ export function Header() {
                             <a href="#home"> <Logo /> </a>
                         </a>
                     </div>
-                    <nav id="navr" className="md:relative md:w-auto w-full md:mt-0 mt-16 translate-y-2 md:translate-y-0 top-0 md:pb-0 pb-3 bg-white md:bg-transparent absolute items-center md:space-x-2 text-sm font-medium text-gray-500 md:flex hidden">
-                        <a href="#_" className="md:rounded bg-white md:px-3 px-5 md:py-2 py-3 transition hover:bg-gray-100 md:inline block md:w-auto w-full">Home</a>
-                        <a href="#_" className="md:rounded bg-white md:px-3 px-5 md:py-2 py-3 transition hover:bg-gray-100 md:inline block md:w-auto w-full">Projects</a>
-                        <a href="#_" className="md:rounded bg-white md:px-3 px-5 md:py-2 py-3 transition hover:bg-gray-100 md:inline block md:w-auto w-full">About</a>
-
-                    </nav>
+             
                     <div className="flex items-center space-x-2 text-sm pr-4 font-medium text-gray-800">
 
                     </div>
