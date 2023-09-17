@@ -1,17 +1,27 @@
 <h1 align="center">  Cadastro De Endereços </h1>
-Este repositório contém o código-fonte e a documentação para um sistema de cadastro de endereços, projetado para simplificar o gerenciamento de informações de endereços. O sistema oferece funcionalidades de inserção, edição e exclusão de endereços, e integra-se perfeitamente com a API ViaCep para obter detalhes de endereços a partir de um CEP.
+A Lading Page para Portfólio Pessoal é um projeto de design e desenvolvimento web destinado a criar uma presença online impactante e profissional para indivíduos que desejam exibir seu trabalho, habilidades e conquistas em um ambiente digital atraente e de fácil acesso. Essa Lading Page é cuidadosamente projetada para contar a história do profissional, destacar suas realizações e criar uma conexão direta com potenciais empregadores, clientes ou colaboradores..
 
-## Funcionalidades Principais
+## Objetivos
 
-`Inserir Endereço:` Permite aos usuários adicionar um novo endereço, fornecendo todas as informações necessárias, incluindo título, logradouro, complemento, bairro, localidade e UF. A data de criação é automaticamente registrada.
+Apresentação Profissional: Criar uma página que represente o profissional de forma sofisticada, transmitindo credibilidade e confiança aos visitantes.
 
-`Editar Endereço:` Oferece a capacidade de modificar qualquer informação de um endereço existente. As alterações são registradas, atualizando a data de atualização.
+Exibir Portfólio: Mostrar uma seleção cuidadosa de projetos, trabalhos ou realizações anteriores de forma visualmente atraente, com descrições detalhadas e links para mais informações.
 
-`Excluir Endereço:` Permite a exclusão segura de um endereço, removendo-o do sistema permanentemente.
+Destaque para Habilidades: Destacar as habilidades e competências do profissional por meio de gráficos, infográficos ou outros elementos visuais.
 
-## Integração com ViaCep:
+Informações de Contato: Facilitar o contato com o profissional, fornecendo informações de contato claras e opções para envio de mensagens ou solicitação de serviços.
 
-O sistema inclui uma funcionalidade adicional que simplifica o processo de inserção de endereços. Na página inicial, os usuários podem inserir um CEP em um campo de texto e, ao clicar em "Cadastrar", uma modal central será exibida na tela. Essa modal busca automaticamente informações detalhadas do CEP na API da ViaCep `(https://viacep.com.br/)` e preenche os campos, incluindo logradouro, complemento, bairro, localidade e UF.
+Integração de Redes Sociais: Integrar links para as redes sociais profissionais do indivíduo, como LinkedIn e GitHub, para que os visitantes possam se conectar facilmente.
+
+Responsividade: Garantir que a Lading Page seja totalmente responsiva, ou seja, que funcione perfeitamente em dispositivos móveis, tablets e computadores.
+
+## Design e Elementos Chave
+
+Um layout moderno e limpo que reflete a personalidade e estilo do profissional.
+Uma seção de destaque no topo da página com uma foto profissional e um slogan pessoal.
+Um portfólio visualmente atraente com miniaturas de projetos e uma opção para expandir detalhes.
+Um formulário de contato ou botão de chamada à ação que incentiva os visitantes a entrar em contato.
+Cores e tipografia que combinem com a identidade visual pessoal do profissional.
 
 ## Tecnologias Utilizadas:
 
@@ -28,7 +38,7 @@ npm install
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
